@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T22:55:38.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Bxnbob_x9qjdcxcaO-CJ" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T22:56:00.081Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lxyBen-_4fyV6fGZv9zu" version="22.1.17" type="github">
   <diagram name="第 1 页" id="1SULF4poi3xS_OX-S2Gi">
     <mxGraphModel dx="2234" dy="1211" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,6 +38,9 @@
           <mxGeometry x="504" y="279.5" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=8;endSize=8;" edge="1" parent="1" source="0gdj0jr3233fd3dvfJDH-3" target="0gdj0jr3233fd3dvfJDH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gdj0jr3233fd3dvfJDH-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=8;endSize=8;" edge="1" parent="1" source="0gdj0jr3233fd3dvfJDH-3" target="0gdj0jr3233fd3dvfJDH-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-3" value="管理端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
