@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T23:06:54.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="w11HZ2CbDwN8x2Hkm5Ks" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T23:10:36.423Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oZtUTKy_E-6r0DbzaK7C" version="22.1.17" type="github">
   <diagram name="第 1 页" id="1SULF4poi3xS_OX-S2Gi">
     <mxGraphModel dx="2234" dy="1211" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0gdj0jr3233fd3dvfJDH-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="511" width="900" height="447" as="geometry" />
+        </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-5" value="&amp;nbsp; &amp;nbsp; 角色" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-429" y="103.75" width="1152" height="327.25" as="geometry" />
         </mxCell>
@@ -70,9 +73,6 @@
         <mxCell id="0gdj0jr3233fd3dvfJDH-22" value="预留 20101" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="167" y="361.5" width="120" height="34.5" as="geometry" />
         </mxCell>
-        <mxCell id="0gdj0jr3233fd3dvfJDH-27" value="1、用户进入小程序必须选择附近的一个团长&lt;br&gt;2、用户下单订单信息必须有团长openid" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=19;fontColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-422" y="484" width="833" height="109" as="geometry" />
-        </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=8;endSize=8;" edge="1" parent="1" source="0gdj0jr3233fd3dvfJDH-28" target="0gdj0jr3233fd3dvfJDH-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -80,25 +80,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-28" value="商品" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-205" y="645" width="120" height="34.5" as="geometry" />
+          <mxGeometry x="-283" y="539" width="120" height="34.5" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-29" value="快递" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-305" y="745" width="120" height="34.5" as="geometry" />
+          <mxGeometry x="-383" y="639" width="120" height="34.5" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-30" value="干洗商品列表" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-148" y="745" width="175" height="258" as="geometry" />
+          <mxGeometry x="-226" y="639" width="175" height="258" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-33" value="干洗商品0" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-123" y="790" width="123" height="34.5" as="geometry" />
+          <mxGeometry x="-201" y="684" width="123" height="34.5" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-36" value="干洗商品1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-123" y="838" width="123" height="34.5" as="geometry" />
+          <mxGeometry x="-201" y="732" width="123" height="34.5" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-37" value="干洗商品2" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-123" y="886" width="123" height="34.5" as="geometry" />
+          <mxGeometry x="-201" y="780" width="123" height="34.5" as="geometry" />
         </mxCell>
         <mxCell id="0gdj0jr3233fd3dvfJDH-38" value="..." style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-123" y="934" width="123" height="34.5" as="geometry" />
+          <mxGeometry x="-201" y="828" width="123" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0gdj0jr3233fd3dvfJDH-42" value="团长列表" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="26" y="639" width="201" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="0gdj0jr3233fd3dvfJDH-43" value="团长0" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="679" width="123" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0gdj0jr3233fd3dvfJDH-44" value="团长1" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="726" width="123" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0gdj0jr3233fd3dvfJDH-45" value="团长2" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="773" width="123" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0gdj0jr3233fd3dvfJDH-46" value="..." style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="820" width="123" height="34.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
