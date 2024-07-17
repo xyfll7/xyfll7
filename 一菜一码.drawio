@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T11:21:23.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LKRHrrIbOLkgKChnMaNG" version="24.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T11:48:36.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1nWRxAL__r6IC5NCktPq" version="24.7.0" type="github">
   <diagram name="第 1 页" id="5e1QNajsPiZG3O762Wmg">
     <mxGraphModel dx="2876" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l7FKMuZ3lJQXeuaJFlXs-166" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="1200" width="990" height="760" as="geometry" />
+        </mxCell>
         <mxCell id="l7FKMuZ3lJQXeuaJFlXs-110" value="" style="group;fontColor=#000000;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="25" y="360" width="290" height="590" as="geometry" />
         </mxCell>
@@ -237,6 +240,18 @@
         </mxCell>
         <mxCell id="l7FKMuZ3lJQXeuaJFlXs-163" value="顾客可使用应用程序中自带的移动设备摄像头图像显示区域，继续扫码识别更多菜品，并将识别到的菜品添加至购物车" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=19;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="25" y="240" width="577.62" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l7FKMuZ3lJQXeuaJFlXs-164" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;菜品名称&lt;/font&gt;&lt;div style=&quot;font-size: 26px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;菜品图片&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1290" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="l7FKMuZ3lJQXeuaJFlXs-167" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;菜单&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7FKMuZ3lJQXeuaJFlXs-169" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;菜品名称&lt;/font&gt;&lt;div style=&quot;font-size: 26px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;菜品图片&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1290" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="l7FKMuZ3lJQXeuaJFlXs-170" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;菜品名称&lt;/font&gt;&lt;div style=&quot;font-size: 26px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;菜品图片&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1290" width="150" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
