@@ -1,6 +1,6 @@
 [
 {
-"name":"abc",
-"age":123
+"key":"command+y",
+"command":"https://www.youdao.com/result?lang=en&word="
 }
 ]
