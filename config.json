@@ -1,6 +1,34 @@
 [
-{
-"key":"command+u",
-"command":"https://www.youdao.com/result?lang=en&word="
-}
+  {
+    "key": "command+y",
+    "command": "https://www.youdao.com/result?lang=en&word="
+  },
+  {
+    "key": "command+d",
+    "command": "https://www.douyin.com/search/"
+  },
+  {
+    "key": "command+j",
+    "command": "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD/"
+  },
+  {
+    "key": "command+b",
+    "command": "https://www.baidu.com/s?ie=UTF-8&wd="
+  },
+  {
+    "key": "command+g",
+    "command": "https://www.google.com/search?q="
+  },
+  {
+    "key": "command+option+b",
+    "command": "https://fanyi.baidu.com/#en/zh/"
+  },
+  {
+    "key": "command+option+b",
+    "command": "https://fanyi.baidu.com/#en/zh/"
+  },
+  {
+    "key": "command+option+g",
+    "command": "https://translate.google.cn/?sl=zh-CN&tl=en&op=translate&text="
+  }
 ]
