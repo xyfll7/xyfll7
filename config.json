@@ -1,36 +1,50 @@
 [
   {
-    "title":"⌘+Y一键有道",
+    "windows_title":"ctrl+Y 一键有道",
+    "windows_key":"Control+Y",
+    "title":"⌘+Y 一键有道",
     "key": "command+y",
     "command": "https://www.youdao.com/result?lang=en&word="
   },
   {
-    "title":"⌘+D一键抖音",
+    "windows_title":"ctrl+D 一键抖音",
+    "windows_key":"Control+D",
+    "title":"⌘+D 一键抖音",
     "key": "command+d",
     "command": "https://www.douyin.com/search/"
   },
   {
-    "title":"⌘+J一键剑桥",
+    "windows_title":"ctrl+J 一键剑桥",
+    "windows_key":"Control+J",
+    "title":"⌘+J 一键剑桥",
     "key": "command+j",
     "command": "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD/"
   },
   {
-    "title":"⌘+B一键百度",
+    "windows_title":"ctrl+B 一键百度",
+    "windows_key":"Control+B",
+    "title":"⌘+B 一键百度",
     "key": "command+b",
     "command": "https://www.baidu.com/s?ie=UTF-8&wd="
   },
   {
-    "title":"⌘+G一键谷歌",
+    "windows_title":"ctrl+G 一键谷歌",
+    "windows_key":"Control+G",
+    "title":"⌘+G 一键谷歌",
     "key": "command+g",
     "command": "https://www.google.com/search?q="
   },
   {
-    "title":"⌘⌥+B一键百度翻译",
+    "windows_title":"ctrl+B 一键百度翻译",
+    "windows_key":"Control+Alt+B",
+    "title":"⌘⌥+B 一键百度翻译",
     "key": "command+option+b",
     "command": "https://fanyi.baidu.com/#en/zh/"
   },
   {
-    "title":"⌘⌥+G一键谷歌翻译",
+    "windows_title":"ctrl+G 一键谷歌翻译",
+    "windows_key":"Control+Alt+G",
+    "title":"⌘⌥+G 一键谷歌翻译",
     "key": "command+option+g",
     "command": "https://translate.google.cn/?sl=zh-CN&tl=en&op=translate&text="
   }
