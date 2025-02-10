@@ -1,4 +1,11 @@
 [
+    {
+    "windows_title":"ctrl+O 一键有道",
+    "windows_key":"Control+O",
+    "title":"⌘+O 一键欧陆",
+    "key": "command+o",
+    "command": "https://dict.eudic.net/dicts/en/"
+  },
   {
     "windows_title":"ctrl+Y 一键有道",
     "windows_key":"Control+Y",
