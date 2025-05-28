@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="VGcsksy7XfQpS_59Nm2g">
-    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-2" value="用户下单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="208" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-4" value="团长收单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-12" value="团主收单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-14" value="测试思路" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-15" value="对账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-16" value="对账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-17" value="订单查看" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-18" value="核销订单功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-19" value="订单查看" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vOVfCKa2Iexsydhb4jjb-20" value="核销打印订单功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
