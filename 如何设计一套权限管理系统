@@ -19,3 +19,99 @@
 - **资源(Resource)**：系统管理的对象(如文件、数据库记录)
 
 ```
+
+
+## 2. 详细设计
+
+### 2.1 数据库设计
+```
+表结构示例:
+- 用户表(Users): id, username, password, status, ...
+- 角色表(Roles): id, name, description, ...
+- 权限表(Permissions): id, name, code, resource_type, ...
+- 用户角色关联表(User_Roles): user_id, role_id
+- 角色权限关联表(Role_Permissions): role_id, permission_id
+```
+
+### 2.2 权限粒度设计
+- **功能权限**：控制菜单/按钮的可见性
+- **数据权限**：控制数据访问范围(如部门数据、个人数据)
+- **字段权限**：控制字段的可见/可编辑性
+
+### 2.3 权限验证流程
+1. 用户登录获取身份凭证
+2. 系统加载用户角色和权限
+3. 用户请求资源时进行权限校验
+4. 通过则允许访问，否则拒绝
+
+## 3. 高级功能
+
+### 3.1 动态权限
+- 运行时修改权限配置
+- 权限变更实时生效
+- 支持权限模板和继承
+
+### 3.2 权限委托
+- 临时权限授予
+- 权限借用机制
+- 审批流程集成
+
+### 3.3 审计日志
+- 记录所有权限变更
+- 跟踪敏感操作
+- 支持事后追溯
+
+## 4. 技术实现考虑
+
+### 4.1 实现方式
+- **中间件拦截**：在请求处理前校验权限
+- **注解/AOP**：通过代码注解声明权限需求
+- **前端控制**：配合后端实现界面元素显隐
+
+### 4.2 性能优化
+- 权限缓存机制
+- 批量权限预加载
+- 最小权限原则设计
+
+### 4.3 安全考虑
+- 权限提升防护
+- 越权访问检测
+- 定期权限复核
+
+## 5. 扩展性设计
+
+- 多租户支持
+- 第三方应用集成
+- 自定义权限策略引擎
+
+## 示例实现(Python伪代码)
+
+```python
+class PermissionSystem:
+    def __init__(self):
+        self.roles = {}  # 角色存储
+        self.permissions = {}  # 权限存储
+        
+    def add_permission(self, perm_id, name, resource):
+        self.permissions[perm_id] = {'name': name, 'resource': resource}
+        
+    def create_role(self, role_id, name):
+        self.roles[role_id] = {'name': name, 'permissions': set()}
+        
+    def assign_permission(self, role_id, perm_id):
+        if role_id in self.roles and perm_id in self.permissions:
+            self.roles[role_id]['permissions'].add(perm_id)
+            
+    def check_permission(self, user, resource, action):
+        # 检查用户是否有对资源的操作权限
+        for role in user.roles:
+            for perm_id in self.roles[role]['permissions']:
+                perm = self.permissions[perm_id]
+                if perm['resource'] == resource and action in perm['name']:
+                    return True
+        return False
+```
+
+## 总结
+
+设计权限管理系统时，应根据应用规模和安全需求选择合适的模型(RBAC/ABAC)，平衡灵活性与复杂性，并确保良好的性能和可维护性。完善的日志和审计功能对于安全合规至关重要。
